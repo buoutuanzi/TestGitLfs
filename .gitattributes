@@ -2,9 +2,9 @@
 
 # Unity files
 *.meta -text merge=unityyamlmerge diff
-*.unity -text merge=unityyamlmerge diff
+*.unity -text merge=unityyamlmerge diff lockable
 *.asset -text merge=unityyamlmerge diff
-*.prefab -text merge=unityyamlmerge diff
+*.prefab -text merge=unityyamlmerge diff lockable
 *.mat -text merge=unityyamlmerge diff
 *.anim -text merge=unityyamlmerge diff
 *.controller -text merge=unityyamlmerge diff
